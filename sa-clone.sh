@@ -39,9 +39,12 @@ esac
 git clone "$REPO" ./_temp_clone
 
 
+echo "test"
+
 # Loop through the file paths and download each file
 for path in "${PATHS[@]}"; do
 	rsync -avR "./_temp_clone/./$path" ./
+	echo "$path"
 done
 
 rm -rf "./_temp_clone"
