@@ -2,9 +2,20 @@
 
 # GitHub repository and file paths
 REPO="https://github.com/Studio-Almond/sa-core.git"
+
 account=(
-	"templates" 
-	"sections/cart-drawer.liquid"
+	"src/scss/account"
+	
+	"templates/customers" 
+	
+	"assets/sa-account.js"
+
+	"snippets/account-settings.liquid"
+	"snippets/account-address-form.liquid"
+	"snippets/account-form--login.liquid"
+	"snippets/account-form--recover.liquid"
+	"snippets/account-form--register.liquid"
+	"snippets/account-orders-table.liquid"
 )
 
 PATHS=$account
