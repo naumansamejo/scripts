@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "$0 $1"
+
 # GitHub repository and file paths
 REPO="https://github.com/Studio-Almond/sa-core.git"
 
