@@ -10,6 +10,15 @@ account=(
 
 	"templates/customers" 
 
+	"sections/main-login.liquid"
+
+	"sections/main-account.liquid"
+	"sections/main-addresses.liquid"
+	"sections/main-register.liquid"
+	"sections/main-vip.liquid"
+	"sections/main-order.liquid"
+	"sections/main-login.liquid"
+
 	"snippets/account-settings.liquid"
 	"snippets/account-address-form.liquid"
 	"snippets/account-form--login.liquid"
