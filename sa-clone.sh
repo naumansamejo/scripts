@@ -3,7 +3,7 @@
 # GitHub repository and file paths
 REPO="https://github.com/Studio-Almond/sa-core.git"
 
-account=(
+PATHS=(
 	"assets/sa-account.js"
 	"src/scss/account"
 	"templates/customers" 
@@ -15,14 +15,14 @@ account=(
 	"snippets/account-orders-table.liquid"
 )
 
-PATHS=$account
+# PATHS=$account
 
 
 
 # Use a case statement to execute commands based on the first argument
 case "$1" in
 	"account")
-		PATHS=$account
+		# PATHS=$account
 
 		;;
 	"cart")
