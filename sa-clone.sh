@@ -22,7 +22,7 @@ case "$1" in
 		;;
 
 	*)
-		echo "Invalid argument. Usage: $0 {start|stop|restart|status}"
+		echo "Invalid argument."
 		exit 1
 		;;
 esac
