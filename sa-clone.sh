@@ -7,7 +7,7 @@ account=(
 	"src/scss/account"
 	
 	"templates/customers" 
-	
+
 	"assets/sa-account.js"
 
 	"snippets/account-settings.liquid"
@@ -44,7 +44,7 @@ git clone "$REPO" ./_temp_clone
 
 # Loop through the file paths and download each file
 for path in "${PATHS[@]}"; do
-	rsync -aR "./_temp_clone/./$path" ./
+	rsync -avR "./_temp_clone/./$path" ./
 done
 
 rm -rf "./_temp_clone"
