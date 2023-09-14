@@ -5,11 +5,8 @@ REPO="https://github.com/Studio-Almond/sa-core.git"
 
 account=(
 	"src/scss/account"
-	
 	"templates/customers" 
-
 	"assets/sa-account.js"
-
 	"snippets/account-settings.liquid"
 	"snippets/account-address-form.liquid"
 	"snippets/account-form--login.liquid"
