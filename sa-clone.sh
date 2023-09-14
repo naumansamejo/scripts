@@ -4,9 +4,12 @@
 REPO="https://github.com/Studio-Almond/sa-core.git"
 
 PATHS=(
-	"assets/sa-account.js"
 	"src/scss/account"
+
+	"assets/sa-account.js"
+	
 	"templates/customers" 
+
 	"snippets/account-settings.liquid"
 	"snippets/account-address-form.liquid"
 	"snippets/account-form--login.liquid"
