@@ -29,6 +29,15 @@ account=(
 	"snippets/account-orders-table.liquid"
 )
 
+qa=(
+	"sections/main-qa.liquid"
+	"sections/main-styles.liquid"
+	"src/scss/page-qa.scss"
+	"src/scss/page-style-guide.scss"
+	"templates/page.qa.json"
+	"templates/page.styles.json"
+)
+
 PATHS=("${account[@]}")
 
 
@@ -39,6 +48,12 @@ case "$1" in
 		PATHS=("${account[@]}")
 
 		;;
+		
+	"qa")
+		PATHS=("${qa[@]}")
+
+		;;
+
 	"cart")
 			
 		;;
